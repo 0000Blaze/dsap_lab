@@ -8,8 +8,8 @@ function question_3()
   y =[1];   %ploting variable for y axis
   display('The fibonacci points are:');
 %looping criteria for sum less than 1000
-  while c < 1000
-    if (a+b)<1000
+  while c < 10000
+    if (a+b)<10000
       display(strcat('(',(num2str(a)),',',(num2str(b)),')'));
      endif
 %checking for first number
@@ -22,7 +22,7 @@ function question_3()
     a = b;
     b = c;
 %vector add elements for plotting
-    if c < 1000
+    if c < 10000
       x(end + 1) = a;
       y(end + 1) = b;
     endif
